@@ -161,6 +161,10 @@ body {
     grid-template-rows: 2fr;
 }
 
+.proyectoPrincipal-content h3 {
+    font-size: 25px;
+}
+
 .proyectoPrincipal-content img {
     grid-column: 1;
     width: 85%;
@@ -186,15 +190,24 @@ body {
     border: 1px solid black;
     padding: 15px 20px;
     font-size: 14px;
+    transition: 0.5s;
+}
+
+.proyectos-bts:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
 }
 
 /* Section de los Proyectos Indiciduales */
-.proyectos-section {
-    padding: 10px 80px 40px;
+.proyecto-section {
+    padding: 10px 50px 40px;
 }
 
-.proyectos-section h3 {
+.proyecto-section h3 {
     border-bottom: 1px solid black;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .proyecto-book {
@@ -230,4 +243,5 @@ footer {
 footer p {
     color: white;
     text-align: center;
+    padding: 1%;
 }

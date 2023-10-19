@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="Calculadora/CSS/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+</head>
+<body>
+    <header class="header">
+        <div class="social">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://es.linkedin.com/?src=go-pa&trk=sem-ga_campid.18146679037_asid.140850334975_crid.619061882350_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.1005421&mcid=6968657504633266178&cid=&gclid=EAIaIQobChMIo5_xp4SCggMVUT0GAB0eKwiLEAAYASAAEgKZG_D_BwE&gclsrc=aw.ds" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="images/logon.webp" alt="Logo de la pagina">
+                </a>
+            </div>
+            <div class="nav-link">
+                <a href="profile.html">Informacion sobre mi</a>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <div class="container">
+        <h1>Applicacion de Calculadora</h1>
+        <form id="formulario">
+            <div>
+                <label for="operadorA" class="form-label">Operador A: </label>
+                <input type="number" class="form-control" placeholder="Escribe el operador A" id="operandoA">
+            </div>
+            <div>
+                <label for="operadorB" class="form-label">Operador B: </label>
+                <input type="number" class="form-control" placeholder="Escribe el operador B" id="operandoB">
+            </div>
+        </form>
+        <br>
+        <!-- sacamos fuera del formulario para que no se ejecute POST -->
+        <button type="submit" class="btn btn-primary" onclick="sumar()">Sumar</button>
+        <button type="submit" class="btn btn-danger" onclick="restar()">Restar</button>
+        <button type="submit" class="btn btn-success" onclick="multiplicar()">Multiplicar</button>
+        <button type="submit" class="btn btn-warning" onclick="dividir()">Dividir</button>
+        <br><br>
+        <div id="resultado"></div>
+    </div>
+    <script src="Calculadora/JS/app.js"></script>
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Id nulla nihil voluptatibus accusamus ipsa harum nesciunt 
+            veritatis quam, consequatur, labore obcaecati! Ex eos 
+            adipisci, omnis sequi porro harum. Vitae, voluptates.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Id nulla nihil voluptatibus accusamus ipsa harum nesciunt 
+            veritatis quam, consequatur, labore obcaecati! Ex eos 
+            adipisci, omnis sequi porro harum. Vitae, voluptates.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Id nulla nihil voluptatibus accusamus ipsa harum nesciunt 
+            veritatis quam, consequatur, labore obcaecati! Ex eos 
+            adipisci, omnis sequi porro harum. Vitae, voluptates.</p>
+    </footer>
+</body>
+</html>
