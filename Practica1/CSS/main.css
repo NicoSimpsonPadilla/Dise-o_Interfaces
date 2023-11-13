@@ -1,0 +1,163 @@
+.body {
+    font-size: 500;
+    font-weight: 600;
+    background-color: rgb(125, 184, 240);
+}
+
+.index-body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+.title-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.title-section h1 {
+    font-weight: 1000;
+    font-size: 50px;
+    color: rgb(125, 184, 240);
+}
+
+/* Informacion sobre mi */
+.informacion-sobre-mi {
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 20px;
+    padding: 5px 5px 5px;
+    margin: 0% 5% 2% 5%;
+}
+
+.informacion-sobre-mi-content {
+    padding: 10px 80px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.informacion-sobre-mi-content h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 5% 0% 0% 4%;
+    color: rgb(125, 184, 240);
+}
+
+.informacion-sobre-mi-text {
+    margin: 3% 1% 0% 1%;
+    grid-column: 2;
+    padding: 10px;
+}
+
+.informacion-sobre-mi-text label {
+    color: rgb(125, 184, 240);
+}
+
+/* Paginas */
+.mas-informacion {
+    width: 85%;
+    margin-left: 7.5%;
+}
+
+.informacion {
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 20px;
+    padding: 5px 5px 5px;
+    margin: 1% 1%;
+}
+
+.informacion h4 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(125, 184, 240);
+    margin: 20px 0;
+    text-align: center;
+}
+
+.informacion ol {
+    margin: 0px 30% 50px 30%;
+}
+
+.informacion ul {
+    margin: 0px 0px 50px 0px;
+}
+
+.informacion ul li {
+    text-align: center;
+}
+
+.informacion a {
+    font-size: 20px;
+    color: rgb(125, 184, 240);
+}
+
+.informacion a:hover {
+    color: rgb(65, 65, 173);
+}
+
+.informacion label {
+    color: rgb(125, 184, 240);
+    margin: 0px 0px 50px 30%;
+    width: 40%;
+    text-align: center;
+}
+
+.informacion table {
+    width: 60%;
+    margin: 0px 20% 50px 20%;
+}
+
+.ciudades {
+    margin-left: 12%;
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 90%;
+}
+
+.ciudades img {
+    border-radius: 20px;
+    padding: 5px;
+    max-width: 20%;
+    transition: .5s;
+}
+
+.ciudades img:hover {
+    transform: scale(1.5);
+
+}
+
+.icons {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: rgb(125, 184, 240);
+    border-radius: 20px;
+    
+}
+
+.icons img, a {
+    width: 50px;
+    height: 50px;
+    flex: 1;
+}
+

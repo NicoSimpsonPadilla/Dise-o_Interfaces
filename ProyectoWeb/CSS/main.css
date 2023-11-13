@@ -212,8 +212,10 @@ body {
 
 .proyecto-book {
     display: inline-block;
+    vertical-align: top;
     padding: 10px;
     max-width: 32%;
+    min-width: 32%;
     margin-bottom: 20px;
 }
 
